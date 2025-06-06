@@ -1,13 +1,20 @@
-import { Link } from "react-router-dom";
+import GameCard from "./gameCard/GameCard";
 
 function HomePage() {
   return (
-    <div className="container">
-      <h1>Selçuk’un Oyunları</h1>
+    <div className="homepage">
+      <h1>Tüm Oyunlar</h1>
       <p>Basit ama eğlenceli oyunları keşfet. İlk oyun şimdi yayında!</p>
-      <Link to="/oyun">
-        <button>Oyunu Oyna</button>
-      </Link>
+
+      <div className="game-list">
+        <GameCard
+          title="Flappy Leylek"
+          description="Zorlu engelleri aş ve en yüksek skoru elde et!"
+          image={`${import.meta.env.BASE_URL}cardImageLeylek.png`}
+          link="/oyun"
+        />
+        {/* Diğer kartlar buraya eklenecek */}
+      </div>
     </div>
   );
 }

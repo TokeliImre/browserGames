@@ -1,0 +1,48 @@
+.game-card {
+  width: 280px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+.game-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.game-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.game-content h2 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.game-content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.play-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.play-button:hover {
+  background-color: #0056b3;
+}

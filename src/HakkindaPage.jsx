@@ -6,6 +6,7 @@ function HakkindaPage() {
         Bu site, Selçuk Elbaş tarafından geliştirilen oyunları barındırmak için
         oluşturulmuştur. İyi oyunlar dilerim.
       </p>
+      
     </div>
   );
 }

@@ -2,7 +2,8 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import OyunPage from "./OyunPage";
 import HakkindaPage from "./HakkindaPage";
-import Navbar from "./Navbar";
+import Navbar from "./navbar/Navbar";
+import './App.css';
 
 function App() {
   return (
